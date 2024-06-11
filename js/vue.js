@@ -11815,7 +11815,6 @@
             container.appendChild(el.cloneNode(true));
             return container.innerHTML;
         }
-
     }
     Vue.compile = compileToFunctions;
 
