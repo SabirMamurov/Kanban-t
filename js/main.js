@@ -299,6 +299,7 @@ let app = new Vue({
             if ((this.columns[0].tasks.length > 2) || this.columns[0].disabled) return
             this.columns[0].tasks.push(task)
         },
+
         
         delTask(task){
             this.columns[0].tasks.splice(task,1)
