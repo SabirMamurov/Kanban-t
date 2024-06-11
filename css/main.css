@@ -1,0 +1,27 @@
+table{
+    border: 2px solid black;
+}
+.column {
+    background-color: lightblue;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+}
+
+
+#task2{
+    position: absolute;
+    top: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.add{
+    background-color: lightblue;
+}
