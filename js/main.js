@@ -300,7 +300,6 @@ let app = new Vue({
             this.columns[0].tasks.push(task)
         },
 
-        
         delTask(task){
             this.columns[0].tasks.splice(task,1)
         },
