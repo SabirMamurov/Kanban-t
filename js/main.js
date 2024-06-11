@@ -302,6 +302,7 @@ let app = new Vue({
         delTask(task){
             this.columns[0].tasks.splice(task,1)
         },
+
         move(data) {
             if (data.column.index === 2 && new Date(data.task.task.date) > new Date(data.task.task.deadline_date)) {
                 data.task.column.expired = true;
